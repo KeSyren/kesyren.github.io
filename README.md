@@ -12,10 +12,9 @@ I received my Ph.D. in Computer Science from Florida International University in
 - Contributed to production-scale intelligent IT operations platforms  
 - Recognized with:
   - IBM Research Accomplishment Award  
-  - IBM Outstanding Technical Achievement Award  
-
-### IBM Silicon Valley Lab
-**Senior Data Scientist**
+  - IBM Outstanding Technical Achievement Award
+  - 
+**Senior Data Scientist, IBM Silicon Valley Lab**
 
 - Led the development of AI-driven solutions for detecting personally identifiable information (PII) in large-scale unstructured data  
 - Applied transformer-based language models and advanced ML techniques for enterprise data governance  
