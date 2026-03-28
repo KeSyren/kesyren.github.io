@@ -7,6 +7,9 @@ I received my Ph.D. in Computer Science from Florida International University in
 ### IBM Research (2019–2025)
 **Postdoctoral Researcher, IBM T. J. Watson Research Center**
 
+- Publications in IBM Research:
+  Link: [https://research.ibm.com/publications/detecting-causal-structure-on-cloud-application-microservices-using-granger-causality-models](https://research.ibm.com/publications/detecting-causal-structure-on-cloud-application-microservices-using-granger-causality-models)
+
 - Developed machine learning and causal inference models for IBM Watson AIOps  
 - Addressed critical challenges including event correlation and fault localization in distributed cloud systems  
 - Contributed to production-scale intelligent IT operations platforms  
