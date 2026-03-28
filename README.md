@@ -50,7 +50,17 @@ I actively contribute to the research community through:
 - Decision-making Systems
 - Interactive Recommendation Systems
 - AI for IT Operations (AIOps)  
-- Data Privacy and Governance  
+- Data Privacy and Governance
+
+## Co-advisor Master Students
+- Xinxi Jiang, Xiamen Unversity.
+  - [GRACE: Generating Cause and Effect of Disaster Sub-Events from Social Media Text]{https://dl.acm.org/doi/10.1145/3589335.3651234}, WWW24
+- Shen Yang, Xiamen University.
+  - [Clustering of Bandit with Frequency-Dependent Information Sharing](https://dl.acm.org/doi/abs/10.1007/978-3-031-28238-6_18), ECIR2023
+- Huiying Wang, Xiamen University.
+  - Outstanding Graduate
+
+
 
 ---
 
