@@ -1,8 +1,35 @@
-# Qing Wang
+# Qing Wang, Ph.D.
 
-I received my Ph.D. in Computer Science from Florida International University in 2018, where my dissertation focused on intelligent data mining techniques for automated service management. 
+## About My Work
 
-My research focuses on building cognitive systems for large-scale distributed infrastructure, where I study how to extract knowledge from operational data, perform causal reasoning, and enable automated decision-making through closed-loop learning.
+I have been working on AIOps since its early stages in 2016, with a focus on extracting actionable insights from large-scale operational data.
+
+My research addresses a fundamental challenge:
+
+> **How can we infer system behavior and identify root causes without full instrumentation or explicit knowledge of system structure?**
+
+---
+
+## Research Focus
+
+To tackle this problem, I develop data-driven methods for understanding and diagnosing complex systems:
+
+- **Log-based system understanding**  
+  Modeling unstructured log data to detect anomalies and infer latent system states.
+
+- **Causal structure learning for microservices**  
+  Inferring service dependencies and causal relationships directly from observational data, enabling root cause analysis without requiring manual instrumentation.
+
+- **Data-driven diagnosis frameworks**  
+  Integrating heterogeneous signals—such as logs, metrics, and alerts—for comprehensive incident analysis.
+
+---
+
+## Representative Work
+
+A representative example of my work is *Causal Structure Learning for Microservices* (IEEE CLOUD 2021), where we infer service dependencies from log data using statistical and temporal signals. This approach enables scalable and practical root cause analysis in real-world distributed systems.
+
+---
 
 ## Professional Experience
 
