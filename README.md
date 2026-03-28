@@ -21,7 +21,7 @@ To tackle this problem, I develop data-driven methods for understanding and diag
   Inferring service dependencies and causal relationships directly from observational data, enabling root cause analysis without requiring manual instrumentation.
 
 - **Data-driven diagnosis frameworks**  
-  Integrating heterogeneous signals—such as logs, metrics, and alerts—for comprehensive incident analysis.
+  Integrating heterogeneous signals, such as logs, metrics, and alerts, for comprehensive incident analysis.
 
 ---
 
