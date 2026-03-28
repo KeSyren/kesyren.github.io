@@ -43,7 +43,7 @@ I actively contribute to the research community through:
   - SIGKDD workshops  
 - Session chair at:
   - IEEE BigData  
-  - ICSOC  
+  - IEEE ICSOC  
 
 ## Research Interests 
 - Large-Scale Machine Learning Systems
