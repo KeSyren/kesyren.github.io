@@ -1,6 +1,6 @@
 # Qing Wang
 
-I received my Ph.D. in Computer Science from Florida International University in 2018, where my dissertation focused on intelligent data mining techniques for automated service management. Since then, I have built over a decade of experience across academia and industry, specializing in the design and deployment of large-scale AI systems.
+I received my Ph.D. in Computer Science from Florida International University in 2018, where my dissertation focused on intelligent data mining techniques for automated service management. My research focuses on building cognitive systems for large-scale distributed infrastructure, where I study how to extract knowledge from operational data, perform causal reasoning, and enable automated decision-making through closed-loop learning.
 
 ## Professional Experience
 
