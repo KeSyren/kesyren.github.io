@@ -72,8 +72,8 @@ My work spans causal modeling, anomaly detection, and applied machine learning, 
 I actively contribute to the research community through:
 
 - Program committee member and reviewer for:
-  - AAAI, CIKM, ECIR  
-  - SIGKDD workshops  
+  - KDD, AAAI, CIKM, ECIR, IJCAI
+  - TNSM, JAIR  
 - Session chair at:
   - IEEE BigData  
   - IEEE ICSOC  
