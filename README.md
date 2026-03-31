@@ -97,4 +97,4 @@ I actively contribute to the research community through:
 
 ---
 
-[📫](qwang1@hku.hk) *Feel free to reach out for collaboration or discussion on AI systems and applied machine learning.*
+[📫qwang1@hku.hk](qwang1@hku.hk) *Feel free to reach out for collaboration or discussion on AI systems and applied machine learning.*
