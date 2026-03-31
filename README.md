@@ -1,4 +1,5 @@
 # Qing Wang, Ph.D.
+I am currently a senior researcher of HKU at School of Computing and Data Scientist.
 
 ## About My Work
 
