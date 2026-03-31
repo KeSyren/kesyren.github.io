@@ -97,4 +97,5 @@ I actively contribute to the research community through:
 ---
 
 [📫qwang1@hku.hk](qwang1@hku.hk) *Feel free to reach out for collaboration or discussion on AI systems and applied machine learning.*
-Regularly publish technical articles on [Medium](https://medium.com/@qingwang)
+
+Regularly publish technical articles on [Medium](https://medium.com/@qingwang), 歡迎關注我的[Medium](https://medium.com/@qingwang) ｜ Follow me on [Medium](https://medium.com/@qingwang)
