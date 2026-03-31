@@ -1,5 +1,5 @@
 # Qing Wang, Ph.D.
-I am currently a senior researcher of HKU at School of Computing and Data Scientist.
+[I am currently a senior researcher of HKU at School of Computing and Data Scientist]{https://saasweb.hku.hk/staff/qwang/}.
 
 ## About My Work
 
@@ -97,4 +97,4 @@ I actively contribute to the research community through:
 
 ---
 
-📫 *Feel free to reach out for collaboration or discussion on AI systems and applied machine learning.*
+[📫]{qwang1@hku.hk} *Feel free to reach out for collaboration or discussion on AI systems and applied machine learning.*
