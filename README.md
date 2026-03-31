@@ -94,7 +94,7 @@ I actively contribute to the research community through:
   - Outstanding Graduate
 
 
-
 ---
 
 [📫qwang1@hku.hk](qwang1@hku.hk) *Feel free to reach out for collaboration or discussion on AI systems and applied machine learning.*
+Regularly publish technical articles on [Medium](https://medium.com/@qingwang)
