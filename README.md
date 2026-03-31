@@ -1,5 +1,5 @@
 # Qing Wang, Ph.D.
-[I am currently a senior researcher of HKU at School of Computing and Data Scientist]{https://saasweb.hku.hk/staff/qwang/}.
+[I am currently a senior researcher of HKU at School of Computing and Data Scientist](https://saasweb.hku.hk/staff/qwang/).
 
 ## About My Work
 
