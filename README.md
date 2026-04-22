@@ -5,7 +5,7 @@
 ---
 
 ## 🧬 Professional Profile
-Dr. Qing Wang is a researcher specializing at the intersection of **Large-scale Data Mining**, **Causal Inference**, and **AIOps (Artificial Intelligence for IT Operations)**. Her work focuses on building intelligent, self-healing systems and advanced recommendation frameworks. 
+Dr. Qing Wang is a researcher specializing at the intersection of **Large-scale Data Mining**, **Causal Inference**, and **AIOps (Artificial Intelligence for IT Operations)**. Her work focuses on building intelligent, self-healing systems and advanced personalized recommendation frameworks. 
 
 Much of her research was pioneered during her tenure with **IBM Research**, where she played a key role in developing the causal learning engines for **Watson AIOps**.
 
