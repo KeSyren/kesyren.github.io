@@ -49,10 +49,4 @@ Advancing decision-making under uncertainty for interactive environments.
 - **Email:** [qwang1@hku.hk](mailto:qwang1@hku.hk)
 - **Office:** Room 221, Run Run Shaw Building, The University of Hong Kong
 
----
-*Note: This profile is maintained to highlight research contributions in Data Mining and AIOps.* 
----
-
 [📫qwang1@hku.hk](qwang1@hku.hk) *Feel free to reach out for collaboration or discussion on AI systems and applied machine learning.*
-
-Regularly publish technical articles on [Medium](https://medium.com/@qingwang), 歡迎關注我的[Medium](https://medium.com/@qingwang) ｜ Follow me on [Medium](https://medium.com/@qingwang)
