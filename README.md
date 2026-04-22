@@ -30,7 +30,7 @@ Advancing decision-making under uncertainty for interactive environments.
 * **IBM Research Accomplishment Award (2021):** For contributions to Causal Learning.
 * **IBM Outstanding Technical Achievement Award:** For work on Watson AIOps.
 * **Best Student Paper Award:** IEEE International Conference on Services Computing (SCC), 2017.
-* **Patents:** Holder of multiple US patents in causal inference and automated data mapping.
+* **Patents:** Holder of multiple US patents in AIOps.
 
 ## 📚 Selected Publications
 
