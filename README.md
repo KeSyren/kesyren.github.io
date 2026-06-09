@@ -1,6 +1,6 @@
 # Qing Wang, Ph.D. (王卿)
 
-**Honorary Research Associate** *Department of Statistics and Actuarial Science, The University of Hong Kong (HKU)*
+**Honorary Research Associate** *School of Computing and Data Science, The University of Hong Kong (HKU)*
 
 ---
 
