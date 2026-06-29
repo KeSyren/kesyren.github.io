@@ -21,6 +21,7 @@ $(function() {
 	// Cinematic World Cup personal homepage hero.
 	$('body').addClass('worldcup-landing');
 	$('head').append('<link rel="stylesheet" href="css/worldcup-hero.css" />');
+	$('head').append('<link rel="stylesheet" href="css/worldcup-layout-polish.css" />');
 
 	$('.navbar-nav').html(
 		'<li><a href="#worldcupHero" class="navbar-link">Home</a></li>' +
@@ -29,6 +30,8 @@ $(function() {
 		'<li><a href="#publications" class="navbar-link">Publications</a></li>' +
 		'<li><a href="#talks" class="navbar-link">Talks</a></li>' +
 		'<li><a href="#news" class="navbar-link">News</a></li>' +
+		'<li><a href="#honors" class="navbar-link">Honors</a></li>' +
+		'<li><a href="#students" class="navbar-link">Students</a></li>' +
 		'<li><a href="mailto:qwang1@hku.hk" class="navbar-link">Contact</a></li>'
 	);
 
