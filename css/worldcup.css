@@ -1,0 +1,200 @@
+/* World Cup theme overlay for Qing Wang's academic homepage.
+   This file is intentionally isolated so it can be removed without affecting the base site. */
+
+:root {
+    --wc-navy: #07182f;
+    --wc-blue: #0a3a78;
+    --wc-gold: #d7a928;
+    --wc-gold-light: #ffe28a;
+    --wc-panel: rgba(255, 255, 255, 0.90);
+}
+
+body.worldcup-theme {
+    background:
+        radial-gradient(circle at 70% 5%, rgba(255, 220, 90, 0.22), transparent 28%),
+        radial-gradient(circle at 8% 16%, rgba(255, 255, 255, 0.25), transparent 18%),
+        linear-gradient(135deg, #f8fbff 0%, #eef5ff 45%, #fff8e6 100%);
+    color: #10213d;
+}
+
+body.worldcup-theme::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -4;
+    pointer-events: none;
+    background:
+        radial-gradient(circle at 12% 20%, rgba(215,169,40,.22), transparent 20%),
+        radial-gradient(circle at 88% 12%, rgba(215,169,40,.18), transparent 18%),
+        radial-gradient(circle at 50% 100%, rgba(34,75,141,.10), transparent 32%);
+}
+
+.worldcup-bg {
+    position: fixed;
+    inset: 0;
+    z-index: -3;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.worldcup-confetti,
+.worldcup-confetti::before,
+.worldcup-confetti::after {
+    position: absolute;
+    inset: -20% 0 0 0;
+    content: "";
+    background-image:
+        radial-gradient(circle, rgba(255, 221, 86, .95) 0 2px, transparent 2.5px),
+        linear-gradient(45deg, rgba(215, 169, 40, .85) 0 6px, transparent 6px),
+        linear-gradient(-45deg, rgba(255, 244, 174, .75) 0 5px, transparent 5px);
+    background-size: 140px 150px, 190px 180px, 230px 220px;
+    animation: worldcupConfettiFall 20s linear infinite;
+    opacity: .55;
+}
+
+.worldcup-confetti::before {
+    animation-duration: 28s;
+    animation-delay: -8s;
+    opacity: .42;
+    transform: translateX(6%);
+}
+
+.worldcup-confetti::after {
+    animation-duration: 34s;
+    animation-delay: -14s;
+    opacity: .34;
+    transform: translateX(-8%);
+}
+
+.worldcup-trophy-img,
+.worldcup-trophy-emoji {
+    position: absolute;
+    right: 6%;
+    top: 95px;
+    width: min(28vw, 320px);
+    max-height: 68vh;
+    object-fit: contain;
+    opacity: .86;
+    filter: drop-shadow(0 0 22px rgba(215,169,40,.45)) drop-shadow(0 18px 40px rgba(7,24,47,.24));
+    animation: worldcupTrophyFloat 7s ease-in-out infinite;
+}
+
+.worldcup-trophy-emoji {
+    font-size: min(22vw, 260px);
+    line-height: 1;
+    text-align: center;
+    color: var(--wc-gold);
+}
+
+body.has-worldcup-png .worldcup-trophy-emoji {
+    display: none;
+}
+
+.worldcup-mini {
+    position: absolute;
+    font-size: 54px;
+    opacity: .24;
+    filter: drop-shadow(0 0 10px rgba(215,169,40,.5));
+    animation: worldcupMiniFloat 11s ease-in-out infinite;
+}
+
+.worldcup-mini-1 { left: 7%; top: 18%; animation-delay: -1s; }
+.worldcup-mini-2 { left: 63%; top: 16%; font-size: 38px; animation-delay: -5s; }
+.worldcup-mini-3 { right: 10%; bottom: 9%; font-size: 70px; animation-delay: -8s; }
+
+body.worldcup-theme .navbar-default {
+    background: rgba(255, 255, 255, .88);
+    border-color: rgba(215, 169, 40, .45);
+    box-shadow: 0 8px 30px rgba(7, 24, 47, .08);
+    backdrop-filter: blur(8px);
+}
+
+body.worldcup-theme .navbar-default .navbar-nav > li > a {
+    color: #0b2345;
+    font-weight: 600;
+}
+
+body.worldcup-theme .navbar-default .navbar-nav > li > a:hover {
+    color: #a87300;
+    border-bottom-color: var(--wc-gold);
+}
+
+body.worldcup-theme .panel {
+    position: relative;
+    z-index: 1;
+    background: var(--wc-panel);
+    border: 1px solid rgba(215, 169, 40, .30);
+    border-radius: 14px;
+    box-shadow: 0 14px 34px rgba(7, 24, 47, .10);
+    overflow: hidden;
+}
+
+body.worldcup-theme .panel-heading {
+    background: linear-gradient(90deg, rgba(7,24,47,.94), rgba(10,58,120,.88));
+    color: white;
+    border-bottom: 2px solid var(--wc-gold);
+}
+
+body.worldcup-theme .panel-title,
+body.worldcup-theme .topic {
+    color: white;
+}
+
+body.worldcup-theme .well.contact,
+body.worldcup-theme .thumbnail {
+    background: rgba(255, 255, 255, .82);
+    border-color: rgba(215, 169, 40, .35);
+    box-shadow: 0 8px 24px rgba(7, 24, 47, .08);
+}
+
+body.worldcup-theme a {
+    color: #0645ad;
+}
+
+body.worldcup-theme a:hover {
+    color: #a87300;
+}
+
+@keyframes worldcupTrophyFloat {
+    0%, 100% { transform: translateY(0) rotate(-4deg); }
+    50% { transform: translateY(-26px) rotate(4deg); }
+}
+
+@keyframes worldcupMiniFloat {
+    0%, 100% { transform: translateY(0) rotate(-8deg); }
+    50% { transform: translateY(-34px) rotate(12deg); }
+}
+
+@keyframes worldcupConfettiFall {
+    from { transform: translateY(-12%) rotate(0deg); }
+    to { transform: translateY(42%) rotate(10deg); }
+}
+
+@media (max-width: 768px) {
+    .worldcup-trophy-img,
+    .worldcup-trophy-emoji {
+        right: -6%;
+        top: 120px;
+        width: 190px;
+        opacity: .32;
+    }
+
+    .worldcup-trophy-emoji {
+        font-size: 160px;
+    }
+
+    body.worldcup-theme .panel {
+        border-radius: 10px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .worldcup-confetti,
+    .worldcup-confetti::before,
+    .worldcup-confetti::after,
+    .worldcup-trophy-img,
+    .worldcup-trophy-emoji,
+    .worldcup-mini {
+        animation: none !important;
+    }
+}
