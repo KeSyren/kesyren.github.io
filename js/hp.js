@@ -18,25 +18,56 @@ $(function() {
 				}
 			});
 
-	// World Cup theme: isolated, removable homepage decoration.
-	$('body').addClass('worldcup-theme');
-	$('head').append('<link rel="stylesheet" href="css/worldcup.css" />');
+	// Cinematic World Cup personal homepage hero.
+	$('body').addClass('worldcup-landing');
+	$('head').append('<link rel="stylesheet" href="css/worldcup-hero.css" />');
 
-	var $bg = $('<div class="worldcup-bg" aria-hidden="true"></div>');
-	$bg.append('<div class="worldcup-confetti"></div>');
-	$bg.append('<span class="worldcup-trophy-emoji">🏆</span>');
+	$('.navbar-nav').html(
+		'<li><a href="#worldcupHero" class="navbar-link">Home</a></li>' +
+		'<li><a href="#about_me" class="navbar-link">About</a></li>' +
+		'<li><a href="#research" class="navbar-link">Research</a></li>' +
+		'<li><a href="#publications" class="navbar-link">Publications</a></li>' +
+		'<li><a href="#talks" class="navbar-link">Talks</a></li>' +
+		'<li><a href="#news" class="navbar-link">News</a></li>' +
+		'<li><a href="mailto:qwang1@hku.hk" class="navbar-link">Contact</a></li>'
+	);
 
-	var trophy = new Image();
-	trophy.src = 'img/worldcup.png';
-	trophy.alt = '';
-	trophy.className = 'worldcup-trophy-img';
-	trophy.onload = function() {
-		$('body').addClass('has-worldcup-png');
-	};
-	$bg.append(trophy);
+	var hero = '' +
+	'<div class="row" id="worldcupHero">' +
+		'<div class="wc-confetti" aria-hidden="true"></div>' +
+		'<div class="wc-hero-inner">' +
+			'<div class="wc-copy">' +
+				'<div class="wc-eyebrow">Welcome to</div>' +
+				'<h1 class="wc-title">Qing Wang</h1>' +
+				'<div class="wc-subtitle">Machine Learning Researcher</div>' +
+				'<p class="wc-description">My research focuses on intelligent decision-making under uncertainty, including reinforcement learning, causal inference, and large language models.</p>' +
+				'<div class="wc-profile-links" itemscope itemtype="https://schema.org/Person">' +
+					'<a itemprop="email" href="mailto:qwang1@hku.hk">📧 Email</a>' +
+					'<a itemprop="sameAs" href="https://saasweb.hku.hk/staff/qwang" target="_blank" rel="noopener noreferrer"><img src="img/hku-shield.png" alt="HKU">HKU Profile</a>' +
+					'<a itemprop="sameAs" href="https://orcid.org/0000-0001-5421-5515" target="_blank" rel="me noopener noreferrer"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID">ORCID</a>' +
+					'<a itemprop="sameAs" href="https://scholar.google.com/citations?user=VHZ3VFsAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">🎓 Google Scholar</a>' +
+					'<a itemprop="sameAs" href="https://www.linkedin.com/in/qing-wang-672b0896/" target="_blank" rel="me noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" style="filter: invert(41%) sepia(93%) saturate(1238%) hue-rotate(177deg) brightness(91%) contrast(96%);">LinkedIn</a>' +
+				'</div>' +
+				'<a class="wc-button" href="#about_me">Learn More <span>→</span></a>' +
+			'</div>' +
+			'<div class="wc-visual" aria-hidden="true">' +
+				'<img class="wc-trophy-main" src="img/worldcup.png" alt="">' +
+				'<img class="wc-small-trophy t1" src="img/worldcup.png" alt="">' +
+				'<img class="wc-small-trophy t2" src="img/worldcup.png" alt="">' +
+				'<img class="wc-small-trophy t3" src="img/worldcup.png" alt="">' +
+				'<span class="wc-ball b1">⚽</span>' +
+				'<span class="wc-ball b2">⚽</span>' +
+				'<span class="wc-ball b3">⚽</span>' +
+				'<span class="wc-ribbon">〰</span>' +
+			'</div>' +
+		'</div>' +
+		'<div class="wc-cards">' +
+			'<a class="wc-card" href="#research"><h3>▥ Research Interests</h3><p>Reinforcement Learning, Causal Inference, LLMs, Bandits, Sequential Decision-Making, and More.</p></a>' +
+			'<a class="wc-card" href="#publications"><h3>▤ Publications</h3><p>Explore my latest research papers and publications in top-tier conferences and journals.</p></a>' +
+			'<a class="wc-card" href="#talks"><h3>▸ Talks & News</h3><p>Invited talks, seminar presentations, and latest news and updates.</p></a>' +
+		'</div>' +
+		'<a class="wc-scroll" href="#about_me" aria-label="Scroll to About">⌄</a>' +
+	'</div>';
 
-	$bg.append('<span class="worldcup-mini worldcup-mini-1">🏆</span>');
-	$bg.append('<span class="worldcup-mini worldcup-mini-2">⚽</span>');
-	$bg.append('<span class="worldcup-mini worldcup-mini-3">🏆</span>');
-	$('body').prepend($bg);
+	$('body').prepend(hero);
 });
