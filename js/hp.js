@@ -42,11 +42,11 @@ $(function() {
 				'<div class="wc-subtitle">Machine Learning Researcher</div>' +
 				'<p class="wc-description">My research focuses on intelligent decision-making under uncertainty, including reinforcement learning, causal inference, and large language models.</p>' +
 				'<div class="wc-profile-links" itemscope itemtype="https://schema.org/Person">' +
-					'<a itemprop="email" href="mailto:qwang1@hku.hk">📧 Email</a>' +
-					'<a itemprop="sameAs" href="https://saasweb.hku.hk/staff/qwang" target="_blank" rel="noopener noreferrer"><img src="img/hku-shield.png" alt="HKU">HKU Profile</a>' +
-					'<a itemprop="sameAs" href="https://orcid.org/0000-0001-5421-5515" target="_blank" rel="me noopener noreferrer"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID">ORCID</a>' +
-					'<a itemprop="sameAs" href="https://scholar.google.com/citations?user=VHZ3VFsAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">🎓 Google Scholar</a>' +
-					'<a itemprop="sameAs" href="https://www.linkedin.com/in/qing-wang-672b0896/" target="_blank" rel="me noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" style="filter: invert(41%) sepia(93%) saturate(1238%) hue-rotate(177deg) brightness(91%) contrast(96%);">LinkedIn</a>' +
+					'<a itemprop="email" href="mailto:qwang1@hku.hk">Email</a>' +
+					'<a itemprop="sameAs" href="https://saasweb.hku.hk/staff/qwang" target="_blank" rel="noopener noreferrer">HKU Profile</a>' +
+					'<a itemprop="sameAs" href="https://orcid.org/0000-0001-5421-5515" target="_blank" rel="me noopener noreferrer">ORCID</a>' +
+					'<a itemprop="sameAs" href="https://scholar.google.com/citations?user=VHZ3VFsAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>' +
+					'<a itemprop="sameAs" href="https://www.linkedin.com/in/qing-wang-672b0896/" target="_blank" rel="me noopener noreferrer">LinkedIn</a>' +
 				'</div>' +
 				'<a class="wc-button" href="#about_me">Learn More <span>→</span></a>' +
 			'</div>' +
