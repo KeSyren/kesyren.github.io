@@ -1,0 +1,113 @@
+/* Extra cinematic polish for the World Cup personal homepage hero. */
+
+body.worldcup-landing .navbar-default {
+    min-height: 78px;
+    background: linear-gradient(180deg, rgba(2,8,20,.58), rgba(2,8,20,.12));
+}
+
+body.worldcup-landing .navbar-default::before {
+    font-size: 27px;
+    top: 26px;
+    text-shadow: 0 4px 22px rgba(0,0,0,.45);
+}
+
+body.worldcup-landing .navbar-default .navbar-nav > li > a {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#worldcupHero {
+    background:
+        radial-gradient(circle at 77% 38%, rgba(255, 210, 75, .30), transparent 10%),
+        radial-gradient(circle at 12% 76%, rgba(255, 255, 255, .20), transparent 8%),
+        radial-gradient(ellipse at center bottom, rgba(30, 84, 112, .9) 0%, rgba(4, 28, 59, .90) 38%, rgba(2, 8, 20, .98) 100%);
+}
+
+#worldcupHero::before {
+    opacity: .90;
+    background:
+        radial-gradient(circle at 8% 68%, rgba(255,255,255,.95) 0 2px, rgba(255,255,255,.7) 3px, transparent 70px),
+        radial-gradient(circle at 92% 68%, rgba(255,255,255,.95) 0 2px, rgba(255,255,255,.7) 3px, transparent 70px),
+        radial-gradient(ellipse at 50% 76%, rgba(255,210,95,.20), transparent 33%),
+        linear-gradient(72deg, transparent 0 8%, rgba(255,255,255,.15) 10%, transparent 22% 100%),
+        linear-gradient(-72deg, transparent 0 78%, rgba(255,255,255,.15) 90%, transparent 92% 100%),
+        radial-gradient(ellipse at 50% 64%, transparent 0 48%, rgba(255,255,255,.12) 49%, transparent 50% 100%);
+}
+
+#worldcupHero::after {
+    height: 25vh;
+    background:
+        radial-gradient(ellipse at center top, rgba(255,218,85,.62), transparent 32%),
+        linear-gradient(180deg, rgba(25,105,45,.20), rgba(36,130,48,.92) 48%, rgba(17,84,35,1));
+    box-shadow: 0 -45px 90px rgba(0,0,0,.20) inset;
+}
+
+.wc-confetti,
+.wc-confetti::before,
+.wc-confetti::after {
+    opacity: .78;
+    background-image:
+        linear-gradient(36deg, rgba(221,163,24,.98) 0 9px, transparent 9px),
+        linear-gradient(-28deg, rgba(255,226,112,.88) 0 7px, transparent 7px),
+        linear-gradient(72deg, rgba(255,196,42,.76) 0 5px, transparent 5px),
+        radial-gradient(circle, rgba(255,236,158,.9) 0 2px, transparent 3px);
+    background-size: 124px 138px, 181px 164px, 220px 205px, 95px 110px;
+}
+
+.wc-hero-inner {
+    padding: 115px 7% 165px;
+}
+
+.wc-copy {
+    transform: translateY(-10px);
+}
+
+.wc-title {
+    font-size: clamp(66px, 7.4vw, 104px);
+    letter-spacing: -2.5px;
+    text-shadow: 0 10px 42px rgba(0,0,0,.56);
+}
+
+.wc-description {
+    max-width: 535px;
+    text-shadow: 0 2px 14px rgba(0,0,0,.36);
+}
+
+.wc-trophy-main {
+    right: 8%;
+    top: 10%;
+    width: min(36vw, 430px);
+    filter: drop-shadow(0 0 36px rgba(255,211,81,.75)) drop-shadow(0 26px 68px rgba(0,0,0,.55));
+}
+
+.wc-small-trophy.t1 { left: -4%; top: 7%; }
+.wc-small-trophy.t2 { left: 20%; bottom: 14%; }
+.wc-small-trophy.t3 { right: -8%; bottom: 9%; width: 138px; opacity: .62; filter: blur(.6px) drop-shadow(0 12px 22px rgba(0,0,0,.46)); }
+
+.wc-ball.b1 { left: 13%; top: 0%; }
+.wc-ball.b2 { left: -5%; bottom: 6%; font-size: 118px; filter: blur(2.2px) drop-shadow(0 15px 24px rgba(0,0,0,.48)); }
+.wc-ball.b3 { right: -3%; top: 50%; }
+
+.wc-ribbon {
+    right: -5%;
+    top: 16%;
+    font-size: 94px;
+}
+
+.wc-card {
+    background: rgba(5, 14, 27, .62);
+    border-color: rgba(255,220,106,.24);
+    box-shadow: 0 24px 70px rgba(0,0,0,.35);
+    transition: transform .25s ease, border-color .25s ease, background .25s ease;
+}
+
+.wc-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255,220,106,.62);
+    background: rgba(7, 23, 44, .72);
+}
+
+@media (max-width: 1100px) {
+    body.worldcup-landing .navbar-default .col-md-offset-1 { margin-left: 24%; }
+    body.worldcup-landing .navbar-default .navbar-nav > li > a { padding-left: 12px; padding-right: 12px; }
+}
