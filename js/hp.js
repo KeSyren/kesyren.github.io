@@ -68,7 +68,7 @@ $(function() {
 		'<div class="wc-cards">' +
 			'<a class="wc-card" href="#research"><h3>▥ Research Interests</h3><p>Reinforcement Learning, Causal Inference, LLMs, Bandits, Sequential Decision-Making, and More.</p></a>' +
 			'<a class="wc-card" href="#publications"><h3>▤ Publications</h3><p>Explore my latest research papers and publications in top-tier conferences and journals.</p></a>' +
-			'<a class="wc-card" href="#talks"><h3>▸ Talks & News</h3><p>Invited talks, seminar presentations, and latest news and updates.</p></a>' +
+			'<a class="wc-card" href="#talks"><h3>▤ Talks & News</h3><p>Invited talks, seminar presentations, and latest news and updates.</p></a>' +
 		'</div>' +
 		'<a class="wc-scroll" href="#about_me" aria-label="Scroll to About">⌄</a>' +
 	'</div>';
