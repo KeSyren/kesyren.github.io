@@ -105,9 +105,12 @@
 						</div>
 
                     <!-- Add a clean line break and the new weather tracker row right here -->
-					<div style="margin-top: 10px; border-top: 1px solid #e3e3e3; padding-top: 8px; display: flex; align-items: center; gap: 6px; font-size: 13px; color: #555;">
-					<span id="weather-icon">⏳</span>
-					<span id="weather-temp">Loading local weather...</span>
+					<div style="margin-top: 10px; border-top: 1px solid #e3e3e3; padding-top: 8px; display: flex; align-items: center; gap: 8px; font-size: 13px; color: #555;">
+						<span id="weather-icon">⏳</span>
+						<span id="weather-temp">Loading local weather...</span>
+						<span style="color: #ccc;">|</span>
+						<span>🕒</span>
+						<span id="live-clock">Loading time...</span>
 					</div>
 
 					</p>
@@ -614,6 +617,31 @@
     }
   }
   window.addEventListener("DOMContentLoaded", fetchWeather);
+</script>
+
+<script>
+    function updateClock() {
+        const now = new Date();
+        
+        // Formats to: "Wed, Aug 26, 2026, 7:28:00 AM"
+        const options = {
+			timeZone: 'Asia/Hong_Kong', 
+            weekday: 'short', 
+            year: 'numeric', 
+            month: 'short', 
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit'
+        };
+        
+        const formattedDateTime = now.toLocaleDateString('en-US', options);
+        document.getElementById('live-clock').textContent = formattedDateTime;
+    }
+
+    // Run right away and refresh every single second
+    updateClock();
+    setInterval(updateClock, 1000);
 </script>
 
 </body>
