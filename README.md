@@ -44,7 +44,8 @@ Advancing decision-making under uncertainty for interactive environments.
 | 2023 | *Fault Injection based Interventional Causal Learning* | **AAAI** |
 | 2021 | *Detecting Causal Structure on Microservices with Golden Signals* | **IEEE CLOUD** |
 | 2018 | *Online Interactive Collaborative Filtering Using Multi-armed Bandit* | **IEEE TKDE** |
-| 2017 | *Log-based Direct Causal Analysis for Service Performance* | **IEEE SCC** |
+| 2017 | *Log-based Direct Causal Analysis for Service Performance* | **IEEE SCC (Best Paper)** |
+| 2016 | *Online context-aware recommendation with time varying multi-armed bandit* | **ACM SIGKDD** |
 
 ---
 
