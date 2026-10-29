@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="2" fill="#c92518"/>
+  <path d="M5 5H59V59H5Z" fill="none" stroke="#fff7e8" stroke-width="1.7"/>
+  <path d="M8 8H56V56H8Z" fill="none" stroke="#fff7e8" stroke-width=".7"/>
+  <g fill="#fff7e8" font-family="'Noto Serif CJK SC','Songti SC','SimSun',serif" font-weight="700" text-anchor="middle">
+    <text x="22" y="45" font-size="34">王</text>
+    <text x="44" y="45" font-size="29">卿</text>
+  </g>
+</svg>
