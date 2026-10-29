@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="favicon-32.png" alt="王卿印章" width="96" />
+  <img src="apple-touch-icon.png" alt="王卿印章" width="96" />
 </p>
 
 # Qing Wang, Ph.D. (王卿)
